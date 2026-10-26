@@ -1,0 +1,196 @@
+<?php
+// privacy-policy.php
+// Place this file in your web server directory
+
+$pageTitle = "Privacy Policy - Lantern Path";
+$lastUpdated = "May 26, 2026";
+$contactEmail = "tjsamsunglb@gmail.com"; // Change this to your actual email
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title><?php echo $pageTitle; ?></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        
+        h1 {
+            color: #2C3E50;
+            border-bottom: 3px solid #2C3E50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        h2 {
+            color: #2C3E50;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-left: 4px solid #2C3E50;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #34495E;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .note {
+            background-color: #f8f9fa;
+            border-left: 4px solid #6c757d;
+            padding: 12px 18px;
+            margin: 20px 0;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+        
+        .last-updated {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #888;
+            text-align: center;
+        }
+        
+        .permission-badge {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        
+        <p><strong>Last Updated:</strong> <?php echo $lastUpdated; ?></p>
+        
+        <p>This Privacy Policy describes how ("we", "us", or "our") handles information when you use our <strong>Lantern Path</strong> mobile application (the "App") available on the Google Play Store.</p>
+        
+        <h2>Information Collection and Use</h2>
+        
+        <h3>1. Personal Information</h3>
+        <p>The App does not require any personal information for signup, and we do not collect any personal data from users. No email addresses, names, phone numbers, or other personally identifiable information is requested or stored.</p>
+        
+        <h3>2. Usage Data</h3>
+        <p>The App does not collect any usage data or track how you interact with the game. This includes no tracking of:</p>
+        <ul>
+            <li>Which puzzles you solve or how long they take</li>
+            <li>Which scenes you visit</li>
+            <li>Your progress through the game</li>
+            <li>Clicks, taps, or any other interactions</li>
+        </ul>
+        
+        <h3>3. Device Information</h3>
+        <p>The App does not collect any device information, including:</p>
+        <ul>
+            <li>Device model or manufacturer</li>
+            <li>Operating system version</li>
+            <li>Unique device identifiers (such as IMEI, Android ID, or advertising ID)</li>
+            <li>IP addresses</li>
+        </ul>
+        
+        <div class="note">
+            <strong>Note on Google Play:</strong> While our App collects no data directly, Google Play's standard distribution platform may collect anonymized, aggregate installation and crash data for app improvement purposes as described in Google's own privacy policy.
+        </div>
+        
+        <h2>Permissions</h2>
+        <p>The App requests <strong>no special permissions</strong> on your device. It does not require access to:</p>
+        <ul>
+            <li>Internet (fully offline game)</li>
+            <li>Storage / Photos / Media</li>
+            <li>Camera</li>
+            <li>Microphone</li>
+            <li>Location</li>
+            <li>Contacts</li>
+        </ul>
+        
+        <h2>Data Storage</h2>
+        <p>All game data (such as saved progress via SharedPreferences) is stored <strong>locally on your device only</strong>. This information never leaves your device and is not accessible to us or any third party. Uninstalling the App removes all locally stored data.</p>
+        
+        <h2>Children's Privacy</h2>
+        <p>The App does not knowingly collect any personal information from children under 13. Since the App collects no data at all, no special considerations are needed.</p>
+        
+        <h2>Third-Party Services</h2>
+        <p>The App uses <strong>no third-party services</strong> that collect data, including:</p>
+        <ul>
+            <li>No analytics (Firebase, Google Analytics, etc.)</li>
+            <li>No advertising networks</li>
+            <li>No crash reporting services</li>
+            <li>No social media integrations</li>
+        </ul>
+        
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. You are advised to review this Privacy Policy periodically.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:<?php echo $contactEmail; ?>"><?php echo $contactEmail; ?></a></p>
+        
+        <h2>Consent</h2>
+        <p>By using the App, you agree to the terms of this Privacy Policy.</p>
+        
+        <div class="last-updated">
+            &copy; <?php echo date('Y'); ?> Lantern Path. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
